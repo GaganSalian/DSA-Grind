@@ -1,4 +1,4 @@
-// Problem 9:
+// Problem 9:reverse string
 
 
 function reverseString(str){

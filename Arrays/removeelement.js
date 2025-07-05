@@ -1,4 +1,4 @@
-// problem 8:
+// problem 8:remove elements
 
 function removeElement(arr,target){
     let index=0;

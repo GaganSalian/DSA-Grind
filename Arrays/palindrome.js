@@ -10,3 +10,4 @@ function isPalindrome(input){
 
 
 console.log(isPalindrome(121));
+console.log(isPalindrome(145541));

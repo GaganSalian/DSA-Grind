@@ -1,4 +1,4 @@
-// problem 10:Best Time to Buy and Sell Stock
+// problem 10:Best Time to Buy and Sell Stock.
 
 
 // 🧠 Step-by-Step Strategy (Smart & Efficient)
