@@ -45,4 +45,4 @@ function findMax(arr){
     return max;
 }
 
-console.log(findMax([2,6,9,1,3,5]))
+console.log(findMax([2,6,9,1,3,5,8]))
