@@ -49,7 +49,7 @@ function printStarPttern(n){
     }
 }
 
-console.log(printStarPttern(4))
+console.log(printStarPttern(5))
 
 
 // note:
