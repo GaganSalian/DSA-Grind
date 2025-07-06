@@ -34,4 +34,4 @@ function findUnique(array){
     }
     return unique;
 }
-console.log(findUnique([4, 1, 2, 1, 2]))
+console.log(findUnique([4, 1, 2, 1, 2])) //4
