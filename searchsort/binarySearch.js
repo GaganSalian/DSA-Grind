@@ -19,4 +19,4 @@ function binarySearch(arr,target){
 console.log(binarySearch([1, 3, 5, 7, 9], 5));  // ➝ 2
 console.log(binarySearch([1, 3, 5, 7, 9], 4));  // ➝ -1
 console.log(binarySearch([2, 4, 6, 8, 10], 10)); // ➝ 4
-console.log(binarySearch([], 3));              // ➝ -1
+console.log(binarySearch([], 5));              // ➝ -1
