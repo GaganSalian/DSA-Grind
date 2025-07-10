@@ -23,6 +23,31 @@
 
 // Saves time in best-case scenarios!
 
+// ✅ Why we write j < n - 1 - i
+// 1st pass (i = 0): check all pairs → j < n - 1
+
+// 2nd pass (i = 1): check one less → j < n - 2
+
+// 3rd pass (i = 2): check two less → j < n - 3
+
+// …
+
+// Each pass: biggest value “bubbles” to the end → no need to compare it again.
+
+// So:
+
+// css
+// Copy
+// Edit
+// j < n - 1 - i
+// → skips already sorted values at the end.
+
+// ✅ Key idea:
+
+// Each outer loop pass locks one element at the end.
+
+// So inner loop becomes shorter each time.
+
 
 function bubbleSort(arr){
     let n=arr.length;

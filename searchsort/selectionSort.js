@@ -1,5 +1,18 @@
 // Problem 23: Sort an Array Using Selection Sort
 
+
+// ✅ Short Explanation
+// Start with minIndex = i
+
+// Check every value after i (j = i+1 to end)
+
+// Keep updating minIndex if we find a smaller number
+
+// At the end, minIndex points to the smallest number in the unsorted part of the array.
+
+// TL;DR
+// ✅ “That loop finds the smallest number after i, so we can swap it to the front
+
 function selectionSort(arr){
     let n=arr.length;
 
