@@ -1,5 +1,27 @@
 // Problem 22: Sort an Array Using Bubble Sort
 
+// ✅ When We Write Loop Inside a Loop:
+// The outer loop (i)
+// Think of it like:
+// 👉 “How many rounds or passes do I want to make?”
+
+// It doesn’t do the comparisons.
+
+// It controls how many times we check/sort the array.
+
+// The inner loop (j)
+// It’s the one that actually does the work of comparing and swapping.
+
+// Think of j as the worker:
+// 👉 “I go through the array and compare neighboring elements.”
+
+
+// 🔑 Remember:
+// Put let swapped = false; inside the outer loop.
+
+// Reset it every pass.
+
+// Saves time in best-case scenarios!
 
 
 function bubbleSort(arr){
