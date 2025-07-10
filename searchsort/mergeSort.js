@@ -31,4 +31,4 @@ function merge(left,right){
 console.log(mergeSort([5, 2, 4, 1]));        // ➝ [1, 2, 4, 5]
 console.log(mergeSort([10, -1, 3, 7, 6]));   // ➝ [-1, 3, 6, 7, 10]
 console.log(mergeSort([]));                 // ➝ []
-console.log(mergeSort([1]));                // ➝ [1]
+console.log(mergeSort([2,1]));                // ➝ [1]
