@@ -34,20 +34,41 @@ class LinkedList {
       this.addAtHead(val);
       return;
     }
+    let current = this.head;
+    for (let i = 0; i < index - 1 && current; i++) {
+      current = current.next;
+    }
+    if (!current) {
+      console.log("Index out of bounds");
+      return;
+    }
+    const node = new Node(val);
+    node.next = current.next;
+    current.next = node;
+  }
+
+  deleteAtIndex(index) {
+    if (!this.head) {
+      console.log("List is empty");
+      return;
+    }
+
+    if (index === 0) {
+      this.head = this.head.next;
+      return;
+    }
 
     let current = this.head;
     for (let i = 0; i < index - 1 && current; i++) {
       current = current.next;
     }
 
-    if (!current) {
+    if (!current || !current.next) {
       console.log("Index out of bounds");
       return;
     }
 
-    const node = new Node(val);
-    node.next = current.next;
-    current.next = node;
+    current.next = current.next.next;
   }
 
   print() {
@@ -62,10 +83,18 @@ class LinkedList {
   }
 }
 
+
 const list = new LinkedList();
 
-list.addAtHead(5);     // List: 5
-list.addAtTail(10);    // List: 5 → 10
-list.addAtTail(15);    // List: 5 → 10 → 15
-list.addAtIndex(1, 7); // List: 5 → 7 → 10 → 15
-list.print();          // Output: 5 → 7 → 10 → 15 → null
+list.addAtTail(1);
+list.addAtTail(2);
+list.addAtTail(3);
+list.addAtTail(4);
+list.addAtTail(5);
+list.print();          // 1 → 2 → 3 → 4 → 5 → null
+
+list.deleteAtIndex(2); // Deletes 3
+list.print();          // 1 → 2 → 4 → 5 → null
+
+list.deleteAtIndex(0); // Deletes 1 (head)
+list.print();          // 2 → 4 → 5 → null
