@@ -36,3 +36,4 @@ headB.next.next=common;
 
 const intersection=getIntersectionNode(headA,headB);
 console.log(intersection?intersection.val:"No intersection")
+// Output: 8
