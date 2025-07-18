@@ -45,14 +45,14 @@ function vowelConsonant(str){
 
 }
 
-console.log(mostFrequentVowelAndConsonant("Programming is Amazing!"));
+console.log(vowelConsonant("Programming is Amazing!"));
 // Output: { mostFrequentVowel: 'a', mostFrequentConsonant: 'g' }
 
-console.log(mostFrequentVowelAndConsonant("Hello World!"));
+console.log(vowelConsonant("Hello World!"));
 // Output: { mostFrequentVowel: 'o', mostFrequentConsonant: 'l' }
 
-console.log(mostFrequentVowelAndConsonant("AEIOU aeioooou"));
+console.log(vowelConsonant("AEIOU aeioooou"));
 // Output: { mostFrequentVowel: 'o', mostFrequentConsonant: '' }
 
-console.log(mostFrequentVowelAndConsonant("XYZ123$$"));
+console.log(vowelConsonant("XYZ123$$"));
 // Output: { mostFrequentVowel: '', mostFrequentConsonant: 'x' }
