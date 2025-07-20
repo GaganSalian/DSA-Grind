@@ -29,4 +29,4 @@ function secondLargest(arr){
     return second === -Infinity?null:second;
 }
 
-console.log(secondLargest([10, 5, 20, 20]));   
+console.log(secondLargest([10, 5, 20, 11]));   
