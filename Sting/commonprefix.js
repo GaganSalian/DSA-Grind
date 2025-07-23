@@ -22,3 +22,4 @@ console.log(longestCommonPrefix(["dog", "racecar", "car"]));    // ""
 console.log(longestCommonPrefix(["interschool", "interview"])); // "inter"
 console.log(longestCommonPrefix(["a"]));                        // "a"
 console.log(longestCommonPrefix([""]));                         // ""
+
