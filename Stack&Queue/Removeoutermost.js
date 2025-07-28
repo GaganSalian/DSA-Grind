@@ -1,62 +1,31 @@
-//  Problem 61: Remove Outermost Parentheses
-// 🔧 Given:
-// A valid parentheses string (VPS), e.g., "(()())(())".
+//  Problem62: Remove Outermost Parentheses (with a real stack);
+// 🧠 Stack-Based Approach:
+// Instead of using a counter like before, we’ll now actually use a stack to track open parentheses.
 
-// 🎯 Goal:
-// Remove the outermost parentheses of every primitive string in the input.
+// Key Idea:
+// Push '(' to the stack.
 
-// 🔍 What’s a "Primitive"?
-// A primitive is a non-empty valid parentheses string that cannot be split further into two valid parts.
+// When the stack is not empty before pushing, add '(' to the result (not outermost).
 
-// Example:
+// When popping '(' after seeing ')':
 
-// "(()())(())" → has two primitives: "(()())" and "(())"
+// Only add ')' if the stack is not empty after popping (not outermost).
 
-// Each primitive's outermost parentheses should be removed:
-
-// "(()())" → "()()"
-
-// "(())" → "()"
-
-// So result: "()()()"
-
-// 💡 Stack-Based Logic:
-// Steps:
-// Use a counter to simulate stack depth.
-
-// Loop through each character.
-
-// When '(' is found:
-
-// If depth > 0, add it to result (it's not outermost)
-
-// Increase depth
-
-// When ')' is found:
-
-// Decrease depth
-
-// If depth > 0, add it to result (it's not outermost)
-
-// This way we avoid storing full stacks, just simulate.
-
-
-function removeOuterMost(s){
+function removeParenthese(s){
+    const stack=[];
     let result="";
-    let depth=0;
-
     for(let char of s){
         if(char==='('){
-            if(depth>0)result += char;
-            depth++;
-        }else{
-            depth--;
-            if(depth>0)result +=char;
+            if(stack.length>0){
+                result += char;
+            }
+            stack.push(char);
+        }else if(char===')'){
+            stack.pop();
+            if(stack.length>0){
+                result += char;
+            }
         }
     }
-    return result;
+return result;
 }
-
-console.log(removeOuterMost("(()())(())"));       // "()()()"
-console.log(removeOuterMost("(()())(())(()(()))"));// "()()()()(())"
-console.log(removeOuterMost("()()"));              // ""
