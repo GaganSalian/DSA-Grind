@@ -1,4 +1,4 @@
-//  Problem 62: Remove Outermost Parentheses-without using stack
+//  Problem 61: Remove Outermost Parentheses-without using stack
 // 🔧 Given:
 // A valid parentheses string (VPS), e.g., "(()())(())".
 
