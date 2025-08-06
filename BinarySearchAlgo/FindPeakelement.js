@@ -1,4 +1,4 @@
-//  Problem: Find Peak Element
+//  Problem 74: Find Peak Element
 //  You're given an array nums, where a peak element is an element that is strictly greater than its neighbors
 //  Return any peak element's index.
 
