@@ -13,3 +13,14 @@
 // Edit
 // Input: [0, 2, 4, 5, 3, 1]
 // Output: 3  // (value 5 is the peak)
+
+// 🧠 Approach (Binary Search)
+// Set left = 0 and right = arr.length - 1.
+
+// Find mid.
+
+// If arr[mid] < arr[mid + 1] → we are still going up the mountain → move left = mid + 1.
+
+// Else → we are on the down slope or at the peak → move right = mid.
+
+// Loop until left === right → That’s the peak index.
