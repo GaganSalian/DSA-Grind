@@ -24,3 +24,23 @@
 // Else → we are on the down slope or at the peak → move right = mid.
 
 // Loop until left === right → That’s the peak index.
+
+
+function peakIndexInMountainArray(arr) {
+  let left = 0;
+  let right = arr.length - 1;
+
+  while (left < right) {
+    let mid = Math.floor((left + right) / 2);
+
+    if (arr[mid] < arr[mid + 1]) {
+      // Peak is to the right
+      left = mid + 1;
+    } else {
+      // Peak is at mid or to the left
+      right = mid;
+    }
+  }
+
+  return left; // or right, same thing here
+}
