@@ -50,3 +50,9 @@ console.log(peakIndexInMountainArray([0, 2, 4, 5, 3, 1])); // ➤ 3
 console.log(peakIndexInMountainArray([1, 3, 5, 6, 4, 2])); // ➤ 3
 console.log(peakIndexInMountainArray([0, 10, 5, 2]));      // ➤ 1
 console.log(peakIndexInMountainArray([3, 5, 3, 2, 0]));    // ➤ 1
+
+
+// 📊 Complexity
+// Time: O(log n) (binary search)
+
+// Space: O(1)
