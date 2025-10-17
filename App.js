@@ -58,6 +58,14 @@
 //if you add number also prompt will take it has string
 
 
+
+//capital N is Number this is a function if we pass it to any thing it will convert to number 
+//this is also called type casting
+// let age=Number(prompt("Enter a number"));
+
+// console.log(Number(" 42 "));  output:42
+
+
 // let age=Number(prompt("Enter a number"));
 // console.log(age)
 // console.log(Number(" 42 "));  
