@@ -26,6 +26,7 @@
 //type corcion:if we have "-" js will have only one task- so it will convert string to number if needed
 // console.log("6"-1);output:5
 
+//type corcion:same for *,/ it will work same has -  only +is little change
 
 
 
@@ -52,6 +53,9 @@
 // console.log(null == undefined);  
 // console.log([] == ![]);  
 // console.log([1,2,3] == "1,2,3");  
+
+//prompt is a function- when the prompt function gets our data it take it has string
+//if you add number also prompt will take it has string
 
 
 // let age=Number(prompt("Enter a number"));
