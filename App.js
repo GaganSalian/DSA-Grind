@@ -1,9 +1,23 @@
-
+// when we add number and string it is not addition we call it has concatination
 // let a=10;
 // let b=20;
-// console.log("sum of 10 and 20 "+ " " +(a+b));
+// console.log("sum of 10 and 20 "+ " " +a+b);//output:sum of 10 and 20 is 1020
 
-// // when we add number and string it is not addition we call it has concatination
+ //               operand and opreator
+// console.log("sum of 10 and 20 "+a+b);
+
+//what are operand("sum of 10 and 20 ",a,b):what are operator(+,+)
+
+
+//  if we give priority like we add bracket() then it will be
+// let a=10;
+// let b=20;
+// console.log("sum of 10 and 20 is "+ " " +(a+b));//outpu:sum of 10 and 20 is 30
+
+//soif ist and secound priority is number then it will add but if any string is there then it will also become string
+// let a=5;
+// let b=7;
+// console.log(b+a+"sum ofa and b"):output "12sum ofa and b"
 
 // console.log("hello"-1);
 // console.log(true+false);
