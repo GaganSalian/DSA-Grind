@@ -19,6 +19,16 @@
 // let b=7;
 // console.log(b+a+"sum ofa and b"):output "12sum ofa and b"
 
+
+//type corcion:if we have "+" js will have two task one is concatination and addition
+//ex // console.log("hello"+1);output:hello1  and  //console.log(2+1);output:3
+
+//type corcion:if we have "-" js will have only one task- so it will convert string to number if needed
+// console.log("6"-1);output:5
+
+
+
+
 // console.log("hello"-1);
 // console.log(true+false);
 // console.log(null-5)
