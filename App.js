@@ -97,6 +97,8 @@
 // console.log(Boolean([]) == Boolean({}));  
 
 
+
+//swaping there are mainly three types of swapimg
 // let a=10;
 // let b=20;
 
