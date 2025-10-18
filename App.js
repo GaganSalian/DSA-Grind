@@ -107,8 +107,42 @@
 // b=c;
 // console.log("a is ",a,"and b is ",b)
 
+//swap2 variable without extra variable
+// let a=10;
+// let b=20;
+// a=a+b;
+// b=a-b;
+// a=a-b;
+//  console.log(a,b)
+
+
+
+
+//this is 3 rd way of swaping
+// let a=10;
+// let b=20;
 // [a,b]=[b,a];
 // console.log(a,b)
+
+//rember divide "/" always gives qotient and mode "%" always gives reminder
+// let amount=7;
+
+//  if(amount>=1){
+//      console.log("2 notes:"+Math.floor(amount/2));
+//     amount=amount%2;
+//    console.log(amount)
+//  }
+// output:"2 notes:3"
+// output:1
+
+//divident and devisor
+// console.log(a%b)
+// here a is divident and b is devisor 
+//if the devident cannot be devided the the result will be the sane devident
+//console.log(2%7)
+
+//relational number
+
 
 // let ans=Number(prompt("what is u r age"));
 // if(isNaN(ans)){
@@ -160,7 +194,7 @@
 // amount+=unit*4;
 // console.log(unit)
 
-
+//rember divide "/" always gives qotient and mode "%" always gives reminder
 
 // let amount=5234;
 
