@@ -141,8 +141,44 @@
 //if the devident cannot be devided the the result will be the sane devident
 //console.log(2%7)
 
-//relational number
+//relational number: >,<, <=,>=, !=,==, >==, <==, !==, ===,
 
+
+
+// = you are setting a value ex var a=12
+// == double equal is not a strict equal ex 13=="13"  outputwill give you true but itis not correct
+//===  thripleequal is a strict equal ex 13==="13" output will be false
+
+
+
+//Logical operators : &&, ||,
+//  logical operators are used when there is multipile condition
+
+// in || in or any one condition is true the the  output is true
+
+
+
+//unary operator: ++, --
+//let i =11;
+// i=i++ + ++i;
+// console.log(i)  output:24
+
+
+
+
+// Math functions:
+console.log(Math.round(10.5));
+console.log(Math.ceil(10.1));
+console.log(Math.floor(10.8));
+console.log(Math.trunc(18.98));
+console.log(Math.pow(2,5));//2^5 
+console.log(Math.sqrt(22));
+console.log(Math.cbrt(27));
+console.log(Math.abs(-29));
+console.log(Math.max(22,25,99));
+console.log(Math.min(22,25,99));
+console.log(Math.random());//0 to 1
+console.log(tofixes(22));
 
 // let ans=Number(prompt("what is u r age"));
 // if(isNaN(ans)){
