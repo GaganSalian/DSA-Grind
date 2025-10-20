@@ -34,11 +34,11 @@ console.log(secondLargest([10, 5, 20, 11]));
 
 // write a function that splits an arrayinto  chunks
 
-function chunkarray(arr,n){
-    result=[];
-    for(let i=0;i<arr.length;i+=n){
-        result.push(arr.slice(i,i+n))
-    }
-    return result;
-}
-comsole.log(chunkarray([1,2,3,4,5,6,7],3))
+// function chunkarray(arr,n){
+//     result=[];
+//     for(let i=0;i<arr.length;i+=n){
+//         result.push(arr.slice(i,i+n))
+//     }
+//     return result;
+// }
+// comsole.log(chunkarray([1,2,3,4,5,6,7],3))
