@@ -85,3 +85,19 @@ function countEvenOdd(arr){
   return { even, odd };
   
 }
+
+
+function findMaxNumber(arr){
+  if(!Array.isArray(arr)||arr.length===0){
+    return null
+  }
+  const copy=[...arr];
+  let max=copy[0]
+  for(let i=1;i<copy.length;i++){
+    if(copy[i]>max){
+      max=copy[i];
+    }
+  }
+  return max;
+}
+console.log(findMaxNumber([[1,2,3,4,5,6,7]])); // output:7

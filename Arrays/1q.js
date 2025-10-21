@@ -16,6 +16,11 @@ function secondLargest(arr){
 
     let first=-Infinity;
     let second=-Infinity;
+    // Infinity represents a value larger than any real number (like +∞).
+// -Infinity represents a value smaller than any real number (like -∞).
+// We use -Infinity here so that any real number in the array will be greater.
+// 'first' will hold the largest number, and 'second' will hold the second largest.
+
 
     for(let num of arr){  //here num of arr means take each value from arr one by one and store it in the variable num during each loop.
         if(num>first){
