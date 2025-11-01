@@ -11,3 +11,10 @@ function reverseString(str){
 }
 console.log(reverseString("hey i am  here"))
 //output:  "ereh  ma i yeh"
+
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("hey i am here"));

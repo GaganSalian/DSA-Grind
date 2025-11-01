@@ -40,5 +40,5 @@ function maxProfit(price){
 }
 
 
-console.log(maxProfit([7, 1, 5, 11, 6, 4]))     // Buy at 1, sell at 11
-console.log(maxProfit([7, 6, 4, 16, 1]) )      // No profit
+console.log(maxProfit([7, 1, 5, 11, 6, 4]))     // Buy at 1, sell at 11=10
+console.log(maxProfit([7, 6, 4, 16, 1]) )      //Buy at 4, sell at 16=12
