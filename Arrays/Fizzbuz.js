@@ -42,3 +42,4 @@ function FizzBuzzArray(n){
 }
 
 console.log(FizzBuzzArray(25))
+//output:[1,2,"fizz",4,"Buzz","fizz",7,8,"fizz","Buzz",11,"fizz",13,14,"FizzBuzz",16,17,"fizz",19,"Buzz","fizz",22,23,"fizz","Buzz"]
