@@ -9,3 +9,5 @@ function reverseString(str){
     }
     return reversed;
 }
+console.log(reverseString("hey i am  here"))
+//output:  "ereh  ma i yeh"
