@@ -21,3 +21,4 @@ function removeElement(arr, target) {
 }
 
 console.log(removeElement([22,13,56,11],56));
+//output: [object Array] (3)[22,13,11]
