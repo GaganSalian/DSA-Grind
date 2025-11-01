@@ -17,3 +17,4 @@ function removeDuplicates(arr){
 }
 
 console.log(removeDuplicates([1, 1, 2, 3, 3]));
+//output:[1,2,3]
