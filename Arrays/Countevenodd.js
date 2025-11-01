@@ -86,7 +86,7 @@ function countEvenOdd(arr){
   
 }
 
-
+//find a max number
 function findMaxNumber(arr){
   if(!Array.isArray(arr)||arr.length===0){
     return null
