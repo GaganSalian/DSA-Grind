@@ -53,3 +53,7 @@ function secondLargest(arr){
 console.log(secondLargest([5, 10, 3, 8])); 
 console.log(secondLargest([9, 9, 9]));     
 console.log(secondLargest([4]));    
+
+//output:8
+//9
+//null
