@@ -32,6 +32,9 @@ function secondLargest(arr){
         }
     }
     return second === -Infinity?null:second;
+    // If 'second' was never updated (still -Infinity), return null.
+// Otherwise, return the value of 'second'.
+
 }
 
 console.log(secondLargest([10, 5, 20, 11]));   
@@ -41,7 +44,7 @@ console.log(secondLargest([10, 5, 20, 11]));
 
 // function chunkarray(arr,n){
 //     result=[];
-//     for(let i=0;i<arr.length;i+=n){
+//     for(let i=0;i<arr.length;i=i+n){
 //         result.push(arr.slice(i,i+n))
 //     }
 //     return result;
