@@ -16,4 +16,4 @@ console.log(isPowerOfTwo(1));     // true
 console.log(isPowerOfTwo(2));     // true
 console.log(isPowerOfTwo(8));     // true
 console.log(isPowerOfTwo(18));    // false
-console.log(isPowerOfTwo(1024));
+console.log(isPowerOfTwo(1024));    // true
